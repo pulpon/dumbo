@@ -4,7 +4,7 @@ require "dumbo"
 
 class DumboTest < MTest::Unit::TestCase
   def test_version
-    assert Dumbo::VERSION, "0.0.0"
+    assert_equal Dumbo::VERSION, "0.0.1"
   end
 end
 
