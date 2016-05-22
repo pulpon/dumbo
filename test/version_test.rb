@@ -7,5 +7,3 @@ class DumboTest < MTest::Unit::TestCase
     assert_equal Dumbo::VERSION, "0.0.1"
   end
 end
-
-MTest::Unit.new.run

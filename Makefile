@@ -3,7 +3,7 @@ MRUBY_COMMIT ?= 6b0299f72b23071342d3ab067db1abbf15253102
 all: libmruby.a
 
 test:
-	./vendor/mruby/bin/mruby test/*_test.rb
+	./vendor/mruby/bin/mruby test/run_all.rb
 
 clean:
 	rm -rf vendor
